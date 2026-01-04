@@ -1,0 +1,13 @@
+# Google TTS Desktop App Dependencies
+
+# Required
+requests>=2.28.0
+
+# Optional - for better audio handling
+pydub>=0.25.1
+pygame>=2.5.0
+
+# Optional - pydub requires ffmpeg to be installed on the system
+# On Ubuntu/Debian: sudo apt-get install ffmpeg
+# On macOS: brew install ffmpeg
+# On Windows: Download from https://ffmpeg.org/download.html
